@@ -1,0 +1,43 @@
+/*
+Theme Name: Student Portfolio Theme
+Theme URI: http://yourdomain.com/student-portfolio-theme
+Author: Your Name
+Author URI: http://yourdomain.com
+Description: A lightweight one-page portfolio and resume theme for students.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: student-portfolio-theme
+*/
+
+h1 span {
+    color: #007bff;
+  }
+  .card-title {
+    font-weight: 600;
+  }
+  .card-text {
+    font-size: 0.95rem;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0d6efd; /* Bootstrap primary */
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+  
