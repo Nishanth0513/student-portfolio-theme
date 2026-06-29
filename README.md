@@ -1,12 +1,62 @@
-# React + Vite
+# G. Nishanth Reddy — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, premium developer portfolio built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Next.js 16** (App Router)
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS v4**
+- **Framer Motion**
+- **shadcn/ui** (custom components)
+- **Lucide Icons**
+- **EmailJS** (contact form)
+- **next-themes** (dark/light mode)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Configuration
+
+1. Copy `.env.example` to `.env.local` and add your EmailJS credentials.
+2. Add your resume as `public/resume.pdf`.
+3. Update contact details in `lib/data.ts`.
+4. Update `siteConfig.url` in `lib/data.ts` for production SEO.
+
+## Features
+
+- Animated hero with typing effect & coding workspace illustration
+- Photo section, glassmorphism cards, tilt project cards
+- Education timeline, experience, skills with scroll animations
+- Command palette (⌘K / Ctrl+K), theme switcher
+- Scroll progress bar, back-to-top, cursor glow, loading screen
+- SEO metadata, sitemap, robots.txt, dynamic OG image & favicon
+- Fully responsive & accessibility compliant
+
+## Scripts
+
+```bash
+npm run dev      # Development server
+npm run build    # Production build
+npm run start    # Start production server
+npm run lint     # ESLint
+```
+
+## Deploy
+
+Deploy to [Vercel](https://vercel.com) or any platform supporting Next.js.
+
+```bash
+npm run build
+```
+
+## License
+
+MIT — Designed & Developed by G. Nishanth Reddy
