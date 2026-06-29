@@ -22,7 +22,7 @@ export function PhotoSection() {
             />
             <div className="relative h-48 w-48 sm:h-56 sm:w-56 lg:h-64 lg:w-64 rounded-full overflow-hidden border-4 border-white/20 dark:border-slate-700/60 shadow-2xl ring-2 ring-primary/20">
               <Image
-                src="/images/profile.jpg"
+                src="/images/profile.JPG"
                 alt="G. Nishanth Reddy - Full Stack Developer"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
